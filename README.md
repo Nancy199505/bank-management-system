@@ -5,35 +5,31 @@ A simple yet powerful Bank Management System built using Java, MySQL, and JSP/Se
 Features:
 
 User Authentication: Secure login and registration system for users.
-
 Account Management: Create and manage multiple bank accounts.
-
 Transactions: Deposit, withdraw, and transfer funds.
-
 Transaction History: View a detailed history of account transactions.
-
 Database Integration: All data is stored and managed using MySQL.
-
 Responsive Design: User-friendly web interface powered by JSP and HTML.
 
 Technologies Used:
 
 Frontend: HTML, CSS, JSP
-
 Backend: Java Servlets
-
 Database: MySQL
 Tools: Apache Tomcat, JDBC
 Development Environment: Eclipse
 
 Installation:
+
 Prerequisites:
+
 Java Development Kit (JDK) 8 or higher.
 MySQL Server (with MySQL Workbench optional).
 Apache Tomcat 9 or higher.
 An IDE like Eclipse.
 
 Clone the repository:
+
 git clone https://github.com/yourusername/bank-management-system.git
 cd bank-management-system
 
@@ -64,6 +60,7 @@ CREATE TABLE transactions (
 );
 
 Configure the database connection in DatabaseConnection.java:
+
 private static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db";
 private static final String DB_USER = "root";
 private static final String DB_PASSWORD = "password";
@@ -76,6 +73,7 @@ Configure Apache Tomcat as the server.
 Run the project on the server.
 
 Usage:
+
 Access the application:
 Visit http://localhost:8080/BankManagementSystem/.
 
@@ -92,6 +90,9 @@ Acknowledgments
 MySQL Documentation
 Java Servlet API
 Apache Tomcat Community
+
+github link:
+
 
 
 
