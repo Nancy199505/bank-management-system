@@ -38,27 +38,6 @@ Set up the database:
 Create a MySQL database named bank_management.
 Execute the SQL scripts in the database/ folder to create tables:
 
-CREATE TABLE Users (
-    user_id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE accounts (
-    account_id INT AUTO_INCREMENT PRIMARY KEY,
-    account_holder_name VARCHAR(255) NOT NULL,
-    balance DOUBLE NOT NULL
-);
-
-CREATE TABLE transactions (
-    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
-    account_id INT NOT NULL,
-    transaction_type VARCHAR(50) NOT NULL,
-    amount DOUBLE NOT NULL,
-    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (account_id) REFERENCES accounts(account_id)
-);
-
 Configure the database connection in DatabaseConnection.java:
 
 private static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db";
@@ -73,9 +52,6 @@ Configure Apache Tomcat as the server.
 Run the project on the server.
 
 Usage:
-
-Access the application:
-Visit http://localhost:8080/BankManagementSystem/.
 
 Login/Register:
 Register as a new user or log in with existing credentials.
