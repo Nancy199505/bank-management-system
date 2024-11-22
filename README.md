@@ -67,8 +67,6 @@ MySQL Documentation
 Java Servlet API
 Apache Tomcat Community
 
-github link:
-
 
 
 
