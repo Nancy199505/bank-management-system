@@ -1,17 +1,27 @@
 Bank Management System:
+
 A simple yet powerful Bank Management System built using Java, MySQL, and JSP/Servlets. This system allows users to manage accounts, perform transactions, and track balances securely and efficiently.
 
 Features:
+
 User Authentication: Secure login and registration system for users.
+
 Account Management: Create and manage multiple bank accounts.
+
 Transactions: Deposit, withdraw, and transfer funds.
+
 Transaction History: View a detailed history of account transactions.
+
 Database Integration: All data is stored and managed using MySQL.
+
 Responsive Design: User-friendly web interface powered by JSP and HTML.
 
 Technologies Used:
+
 Frontend: HTML, CSS, JSP
+
 Backend: Java Servlets
+
 Database: MySQL
 Tools: Apache Tomcat, JDBC
 Development Environment: Eclipse
