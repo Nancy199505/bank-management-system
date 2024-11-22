@@ -30,7 +30,7 @@ An IDE like Eclipse.
 
 Clone the repository:
 
-git clone https://github.com/yourusername/bank-management-system.git
+git clone https://github.com/Nancy199505/bank-management-system.git
 cd bank-management-system
 
 Set up the database:
