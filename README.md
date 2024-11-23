@@ -14,10 +14,14 @@ Responsive Design: User-friendly web interface powered by JSP and HTML.
 Technologies Used:
 
 Frontend: HTML, CSS, JSP
+
 Backend: Java Servlets
+
 Database: MySQL
+
 Tools: Apache Tomcat, JDBC
-Development Environment: Eclipse
+
+Development Environment: Eclipse(Maven)
 
 Installation:
 
