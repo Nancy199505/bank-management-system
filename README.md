@@ -45,7 +45,9 @@ Execute the SQL scripts in the database/ folder to create tables:
 Configure the database connection in DatabaseConnection.java:
 
 private static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db";
+
 private static final String DB_USER = "root";
+
 private static final String DB_PASSWORD = "password";
 
 Deploy the project:
